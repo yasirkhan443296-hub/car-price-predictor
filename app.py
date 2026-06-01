@@ -2,7 +2,7 @@ import streamlit as st
 import pickle
 import pandas as pd
 
-pipe = pickle.load(open("car_price_model.pkl", "rb"))
+pipe = pickle.load(open("car_price_model (1).pkl", "rb"))
 
 st.title("Car Price Predictor 🚗")
 
